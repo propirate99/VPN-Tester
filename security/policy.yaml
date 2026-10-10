@@ -1,0 +1,10 @@
+policy:
+  pfs: true
+  replay_protection: true
+  max_sa_lifetime: 3600
+  allowed_algorithms:
+    - AES256
+    - AES-GCM-256
+    - CHACHA20-POLY1305
+  min_dh_group: 14
+  anti_replay_window_size: 64
